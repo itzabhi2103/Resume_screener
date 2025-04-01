@@ -20,4 +20,15 @@
 1. **Clone the repo**:  
    ```bash  
    git clone https://github.com/yourusername/resume-screening.git  
-   cd resume-screening  
+   cd resume-screening
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   
+3. **Run the Streamlit app:**
+   ```bash
+   streamlit run app.py
+##🧠 How It Works
+- Upload a resume (PDF or text).
+- The model cleans text (removes stopwords, punctuation) and extracts features using TF-IDF.
+- Predicts the role based on trained data (e.g., "Python Developer" or "Data Scientist").
